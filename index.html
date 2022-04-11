@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Complete Bootstrap for Website Layout</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <!-------------   Navigation   ------------------>
+  <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+       <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="best-logo.webp">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                 <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto" "d-flex">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+       </div>
+  </nav> 
+  <!---------------   Image Slider   ------------------------>
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://c4.wallpaperflare.com/wallpaper/461/36/988/sunset-over-franz-josef-glacier-new-zeal-wallpaper-preview.jpg" class="d-block w-100">
+        <div class="carousel-caption">
+          <h1 class="display-2">Bootstrap</h1>
+          <h3>Complete Website Layout</h3>
+          <button type="button" class="btn btn-outline-light btn-lg">VIEW DEMO</button>
+          <button type="button" class="btm btn-primary btn-lg">GET STARTED</button>
+     </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://i.ytimg.com/vi/oqn6Pp_bPW0/maxresdefault.jpg" class="d-block w-100">
+    </div>
+      <div class="carousel-item">
+
+        <img src="https://mona.media/wp-content/uploads/2021/06/bootstrap.png" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="https://cdn.educba.com/academy/wp-content/uploads/2018/09/Top-Uses-Of-JavaScript.jpg" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="https://contentospace.com/wp-content/uploads/2021/06/Python-Programming.jpeg" class="d-block w-100">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!----------------   Jumbotron   --------------------->
+  <div class="container-fluid">
+       <div class="row jumbotron">
+           <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+              <p class="lead">A web hosting service allows individuals aria-hidden
+              organizations to make their website accessible via the World Wide Web.</p>
+           </div>
+           <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+                <a href="#"><button type="button" class="btn btn-outline-secondary btn-lg">Web Hosting</button></a>
+           </div>
+       </div>
+  </div>
+  <!------------------   Welcome Section   --------------------->
+  <div class="container-fluid padding">
+  <div class="row welcome text-center">
+      <div class="col-12">
+          <h1 class="display-4">Built with ease.</h1>
+          <hr>
+          <div class="col-12">
+             <p class="lead">Welcome to my Bootstrap 4 website tutorials!
+            Bootstrap is a free and open-source front-end library with HTML and
+            CSS based designs.</p>
+          </div>
+      </div>
+  </div>
+  </div>
+  <!--------------   Three Column Section    ---------------------->
+  <div class="container-fluid padding">
+    <div class="row text-center padding" id="icons">
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <i class="fa fa-html5"></i>
+            <h3>HTML5</h3>
+            <p>Built with the latest version of HTML, HTML5.</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <i class="fa fa-bold"></i>
+          <h3>BOOTSTRAP</h3>
+          <p>Built with the latest version of Bootstrap, Bootstrap 4.</p>
+      </div>
+      <div class="col-xs-12 col-md-4">
+        <i class="fa fa-css3"></i>
+        <h3>CSS3</h3>
+        <p>Built with the latest version of CSS3, CSS3.</p>
+    </div>
+    </div>
+    <hr class="my-4">
+  </div>
+  <!---------------  Two Column Section  ------------------->
+  <div class="container-fluid padding">
+  <div class="row padding">
+     <div class="col-md-12 col-lg-6">
+         <div class="col-lg-6">
+            <h2>If You Build It....</h2>
+            <p>The columns will automatically stack on top of each other when
+            the screen is less than 576px wide.</p>
+            <p>Resizen the browser window to see the effect. Responsive Web design has become more important as the amount of mobile traffic now
+            accounts for more than half of total internet traffic.</p>
+            <p>It can also display the web page differently depending on the screen size or viewing device. </p>
+            <br>
+            <a href="#" class="btn btn-primary"> Learn More...</a>
+            <br>
+         </div>
+         <div class="col-lg-6">
+             <img src="https://www.betterteam.com/images/senior-web-developer-job-description-6010x4012-2020128.jpeg?crop=16:9,smart&width=1200&dpr=2" class="img-fluid">
+         </div>
+     </div>
+  </div>
+  </div>
+  <!----------------   Fixed Background   ----------------------->
+  <figure>
+    <div class="fixed-wrap">
+      <div id="fixed">
+
+      </div>
+    </div>
+  </figure>
+  <!---------------   Emoji Section  ------------------>
+  <button class="fun" data-toggle="collapse" data-target="#emoji">Click For Fun</button>
+  <div id="emoji" class="collapse">
+  <div class="container-fluid padding">
+  <div class="row text-center">
+    <div class="col-sm-6 col-md-3">
+     <img class="gif" src="https://i.pinimg.com/originals/62/eb/fa/62ebfa7a8501e2c48a62f95baa6dc5f9.gif">
+    </div>
+    <div class="col-sm-6 col-md-3">
+      <img class="gif" src="https://yesbirthday.com/wp-content/uploads/2021/03/1616579098_Happy-Birthday-Gif.gif">
+     </div>
+     <div class="col-sm-6 col-md-3">
+      <img class="gif" src="https://i.pinimg.com/originals/1a/1a/8b/1a1a8b2f889b75508c8fa8ee3313f3c3.gif">
+     </div>
+     <div class="col-sm-6 col-md-3">
+      <img class="gif" src="https://i0.wp.com/www.wishesquotesimages.com/wp-content/uploads/2020/05/love-emoji-gif-for-whatsapp.gif?resize=620%2C620">
+     </div>
+  </div>
+  </div>  
+</div>
+  <!-----------------  Meet the team  ------------------->
+  <div class="container-fluid padding">
+  <div class="row welcome text-center">
+       <div col-12>
+         <h1 class="display-4">Meet the Team</h1>
+       </div>
+       <hr>
+  </div>
+  </div>
+  <!--------------  Cards  --------------------->
+  <div class="conatiner-fluid padding">
+    <div class="row padding">
+       <div class="col-md-4">
+        <div class="card">
+          <img src="data:image/jpeg;base64,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" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">John Doe</h5>
+            <p class="card-text">John is an Internet entrepreneur with 
+           almost 20 years of experience. </p>
+            <a href="#" class="btn btn-secondary">See Profile</a>
+          </div>
+        </div>
+       </div>
+
+       <div class="col-md-4">
+        <div class="card">
+          <img src="https://t4.ftcdn.net/jpg/02/95/10/89/360_F_295108935_pUAWYHrwzT3QKsFXZmJsDBXl4emx9r5p.jpg">
+          <div class="card-body">
+            <h5 class="card-title">Marry Grace</h5>
+            <p class="card-text">Marry is a designer with 
+           almost 12 years of digital design experience. </p>
+            <a href="#" class="btn btn-secondary">See Profile</a>
+          </div>
+        </div>
+       </div>
+
+       <div class="col-md-4">
+        <div class="card">
+          <img src="https://ak.picdn.net/shutterstock/videos/9394682/thumb/1.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Hamza Ali</h5>
+            <p class="card-text">Hamza is a developer with 
+           over 10 years od  web development experience. </p>
+            <a href="#" class="btn btn-secondary">See Profile</a>
+          </div>
+        </div>
+       </div>
+    </div>
+  </div>
+  <!----------------Two Column Section----------------------->
+  <div class="container-fluid padding">
+    <div class="row padding">
+       <div class="col-lg-6">
+         <h2>Our Philosophy</h2>
+         <p>We know that greatness in a disruptive era requires fa-bold
+        ambition, curious talent and a culture that believes we're
+        smarter together.</p>
+        <br>
+        <p>We approach every challenge holistically, with best-in-
+        class expertise in data, creativity, media, technology, 
+        search, social and more.We call this Alchemy. It has the power to build our client's 
+        brands and transform business.And while it may seem like 
+        magic, we've got it down to a science.</p>
+        <br>
+       </div>
+       <div class="col-lg-6">
+         <img src="https://blog.templatetoaster.com/wp-content/uploads/2019/09/What-is-Bootstrap-Facebook.png" class="img-fluid">
+       </div>
+    </div>
+    <hr class="my-4">
+  </div>
+  <!--------------  Connect  ------------------->
+  <div class="container-fluid paddding">
+    <div class="row text-center padding">
+       <div col-12>
+          <h2>Connect</h2>
+       </div>
+       <div class="col-12 media padding">
+           <a href="#"><i class="fa fa-facebook-square"></i></a>
+           <a href="#"><i class="fa fa-twitter-square"></i></a>
+           <a href="#"><i class="fa fa-google-plus"></i></a>
+           <a href="#"><i class="fa fa-instagram"></i></a>
+           <a href="#"><i class="fa fa-youtube-play"></i></a>
+       </div>
+    </div>
+  </div>
+  <!-------------  Footer  ----------------->
+  <footer>
+    <div class="container-fluid padding">
+      <div class="row text-center">
+        <div class="col-md-4">
+          <img src="best-logo.webp" width="50px" height="40px" mb="10">
+          <hr class="light">
+          <p>718-888-1010</p>
+          <p>email@hotmail.com</p>
+          <p>200 Adams Street</p>
+          <p>City, State, 77777</p>
+        </div>
+        <div class="col-md-4">
+           <hr class="light">
+           <h5>Our hours</h5>
+           <hr class="light">
+           <p>Monday - Friday: 9am - 5pm</p>
+           <p>Saturday: 10am - 4pm</p>
+           <p>Sunday: Closed</p>
+        </div>
+        <div class="col-md-4">
+          <hr class="light">
+          <h5>Service Area</h5>
+          <hr class="light">
+          <p>Los Angeles, 00000</p>
+          <p>Washington, 111111</p>
+          <p>New York, 100001</p>
+          <p>Chicago, 555555</p>
+        </div>
+          <div class="col-12">
+            <hr class="light-100">
+            <h5>&copy; digitalBest.com</h5>
+          </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
